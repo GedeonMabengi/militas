@@ -1,0 +1,158 @@
+SOLDER
+------
+id
+photo
+name
+last_name
+first_name
+sex
+date_de_naissance
+lieu_de_naissance
+father_name
+mother_name
+district_d_origine
+province_d_origine
+etat_civil
+id_child
+
+
+Task: 1)J'ai besoin d'une commande php artisan pour la migragration.
+2) mais aussi le contenue du fichier de migration pour creer les champs de la migration.
+3) Je veux que tu renome tout en anglais y compris la table.
+ok
+
+LANGUAGE
+--------
+id
+id_solder
+language
+
+Task: 1)J'ai besoin d'une commande php artisan pour la migragration et le model.
+2) mais aussi le contenue du fichier de migration pour creer les champs de la migration.
+3) Je veux que tu renome tout en anglais y compris la table.
+4) 'id_solder' c'est la cle stranger qui provient de la tables soldiers vu tout haut
+ok
+
+RETROGRADE
+----------
+id
+id_solder
+retrograde
+Task: 1)J'ai besoin d'une commande php artisan pour la migragration et le model.
+2) mais aussi le contenue du fichier de migration pour creer les champs de la migration.
+3) Je veux que tu renome tout en anglais y compris la table.
+4) 'id_solder' c'est la cle stranger qui provient de la tables soldiers vu tout haut
+
+USER
+----
+id
+img
+name
+mail
+pass_word
+
+CHILD
+-----
+id
+photo
+name
+last_name
+first_name
+sex
+date_de_naissance
+lieu_de_naissance
+
+Task: 1)J'ai besoin d'une commande php artisan pour la migragration.
+2) mais aussi le contenue du fichier de migration pour creer les champs de la migration.
+3) Je veux que tu renome tout en anglais y compris la table.
+4) 'id_solder' c'est la cle stranger qui provient de la tables soldiers vu tout haut
+CONJOINT
+--------
+id
+photo
+name
+last_name
+first_name
+date_de_naissance
+lieu_de_naissance
+father_name
+mother_name
+district_d_origine
+province_d_origine
+id_solder
+
+CAMPANGE
+--------
+id
+id_solder
+lieu_campagne
+date_de_debut
+date_de_fin
+
+Task: 1)J'ai besoin d'une commande php artisan pour la migragration et le model.
+2) mais aussi le contenue du fichier de migration pour creer les champs de la migration.
+3) Je veux que tu renome tout en anglais y compris la table.
+4) 'id_solder' c'est la cle stranger qui provient de la tables soldiers vu tout haut
+PROMOTION
+---------
+id
+id_solder
+promotion
+date_incorporation
+
+Task: 1)J'ai besoin d'une commande php artisan pour la migragration et le model.
+2) mais aussi le contenue du fichier de migration pour creer les champs de la migration.
+3) Je veux que tu renome tout en anglais y compris la table.
+4) 'id_solder' c'est la cle stranger qui provient de la tables soldiers vu tout haut
+STUDY
+-----
+id
+id_solder
+date_de_debut
+date_de_fin
+titre_de_la_formation
+
+Task: 1)J'ai besoin d'une commande php artisan pour la migragration et le model.
+2) mais aussi le contenue du fichier de migration pour creer les champs de la migration.
+3) Je veux que tu renome tout en anglais y compris la table.
+4) 'id_solder' c'est la cle stranger qui provient de la tables soldiers vu tout haut
+INTERUPTION DES SERVICES
+------------------------
+id
+id_solder
+interuption_des_services
+date_de_debut
+date_de_finmotif
+
+Task: 1)J'ai besoin d'une commande php artisan pour la migragration et le model.
+2) mais aussi le contenue du fichier de migration pour creer les champs de la migration.
+3) Je veux que tu renome tout en anglais y compris la table.
+4) 'id_solder' c'est la cle stranger qui provient de la tables soldiers vu tout haut
+
+PUNITION
+--------
+id
+id_solder
+punition
+serie_de_la_punition
+date_de_debut
+date_de_finmotif
+
+Task: 1)J'ai besoin d'une commande php artisan pour la migragration et le model.
+2) mais aussi le contenue du fichier de migration pour creer les champs de la migration.
+3) Je veux que tu renome tout en anglais y compris la table.
+4) 'id_solder' c'est la cle stranger qui provient de la tables soldiers vu tout haut
+
+HISTORIQUE
+----------
+id
+id_solder
+serie
+historique_promotion
+reference
+paragraph
+
+Task: 1)J'ai besoin d'une commande php artisan pour la migragration et le model.
+2) mais aussi le contenue du fichier de migration pour creer les champs de la migration.
+3) Je veux que tu renome tout en anglais y compris la table.
+4) 'id_solder' c'est la cle stranger qui provient de la tables soldiers vu tout haut
